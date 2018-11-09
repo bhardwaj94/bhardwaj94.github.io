@@ -9,12 +9,11 @@ export default class About extends Component{
             </div>
             <div className="nine columns main-col">
               <h2>About Me</h2>
-              <p>I've always had a passion for technology and product 
-                development - even before becoming a developer, having 
-                worn many hats in my career between business development, 
-                sales and product management for tech giants and startups
-               in China, Brazil and the US. I use my experience to be more 
-               than just a coder, connecting business requirements with modern technology.<br />
+              <p>I’ve always sought out opportunities and challenges 
+                that are meaningful to me and took best out of them. I use my 
+                experience to be more 
+               than just a coder, connecting business requirements with modern 
+               technology.<br />
 
               I have 2+ years of development experience building fullstack 
               products from scratch, developing and integrating APIs, working with a

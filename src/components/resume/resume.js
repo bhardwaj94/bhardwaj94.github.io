@@ -13,26 +13,14 @@ export default class Resume extends Component{
             <div className="nine columns main-col">
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>University of Life</h3>
-                  <p className="info">Master in Graphic Design <span>•</span> <em className="date">April 2007</em></p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                    ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                    Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
-                  </p>
+                  <h3>IMS engg. college</h3>
+                  <p className="info">Graduate in Computer science<span>•</span> <em className="date">June 2016</em></p>
                 </div>
               </div> {/* item end */}
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>School of Cool Designers</h3>
-                  <p className="info">B.A. Degree in Graphic Design <span>•</span> <em className="date">March 2003</em></p>
-                  <p>
-                    This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                    Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                    nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                    ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
-                  </p>
+                  <h3>U.E.A</h3>
+                  <p className="info">SSC in mathematics<span>•</span> <em className="date">June 2011</em></p>
                 </div>
               </div> {/* item end */}
             </div> {/* main-col end */}
@@ -46,26 +34,27 @@ export default class Resume extends Component{
             <div className="nine columns main-col">
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>Awesome Design Studio</h3>
-                  <p className="info">Senior UX Designer <span>•</span> <em className="date">March 2010 - Present</em></p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                    ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                    Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
-                  </p>
+                  <h3>TCS pvt. ltd.</h3>
+                  <p className="info">Full stack developer<span>•</span> <em className="date">Nov 2016 - Present</em></p>
+                  <ul>
+                    <li>1.5+ year of professional experience in <b>ReactJs, Node.js, Redux, Express.js,
+                       MongoDB, NPM, GIT, Socket.io, JavaScript, ES6, MVC, JSON</b>.</li>
+                    <li>Creating <b>RESTful</b> services with Node.js for web Application</li>
+                    <li>Have take use of client side renedering using <b>ReactJs</b>.</li>
+                    <li>Involved in daily <b>SCRUM</b> meetings to keep track of the project status</li>
+                  </ul>
                 </div>
               </div> {/* item end */}
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>Super Cool Studio</h3>
-                  <p className="info">UX Designer <span>•</span> <em className="date">March 2007 - February 2010</em></p>
-                  <p>
-                    This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                    Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                    nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                    ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
-                  </p>
+                  <h3>TCS pvt. ltd.</h3>
+                  <p className="info">Node developer<span>•</span> <em className="date">Aug 2016 - Nov 2016</em></p>
+                  <ul>
+                    <li>Good exposure in <b>NodeJs</b> and <b>ExpressJs</b>.</li>
+                    <li>Developed <b>REST</b> APIs for web applications.</li>
+                    <li>Have good understanding of server side renedering using Template engines i.e 
+                      <b> Pug, Jade, EJS.</b></li>
+                  </ul>
                 </div>
               </div> {/* item end */}
             </div> {/* main-col end */}
@@ -84,12 +73,12 @@ export default class Resume extends Component{
               </p>
               <div className="bars">
                 <ul className="skills">
-                  <li><span className="bar-expand photoshop" /><em>Photoshop</em></li>
-                  <li><span className="bar-expand illustrator" /><em>Illustrator</em></li>
-                  <li><span className="bar-expand wordpress" /><em>Wordpress</em></li>
+                  <li><span className="bar-expand ReactJs" /><em>ReactJs</em></li>
+                  <li><span className="bar-expand NodeJs" /><em>NodeJs</em></li>
+                  <li><span className="bar-expand JavaScript" /><em>JavaScript</em></li>
                   <li><span className="bar-expand css" /><em>CSS</em></li>
                   <li><span className="bar-expand html5" /><em>HTML5</em></li>
-                  <li><span className="bar-expand jquery" /><em>jQuery</em></li>
+                  <li><span className="bar-expand Database" /><em>Database</em></li>
                 </ul>
               </div>
             </div> 
