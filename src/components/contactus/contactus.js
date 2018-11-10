@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 export default class ContactUs extends Component{
     render() {
+      let resumeData = this.props.resumeData;
       return (
   
         <section id="contact">
@@ -9,9 +10,7 @@ export default class ContactUs extends Component{
               <h1><span>Get In Touch.</span></h1>
             </div>
             <div className="ten columns">
-              <p className="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+              <p className="lead">I'd love to hear from you.
               </p>
             </div>
           </div>
@@ -53,12 +52,11 @@ export default class ContactUs extends Component{
             </div>
             <aside className="four columns footer-widgets">
               <div className="widget widget_contact">
-                <h4>Address and Phone</h4>
+                <h4>Contact details</h4>
                 <p className="address">
-                  Jonathan Doe<br />
-                  1600 Amphitheatre Parkway <br />
-                  Mountain View, CA 94043 US<br />
-                  <span>(123) 456-7890</span>
+                  {resumeData.name}<br />
+                  {resumeData.email} <br />
+                  <span>{resumeData.contact}</span>
                 </p>
               </div>
               <div className="widget widget_tweets">
