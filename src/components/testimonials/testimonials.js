@@ -22,11 +22,9 @@ export default class Testimonials extends Component{
                     </li> {/* slide ends */}
                     <li>
                       <blockquote>
-                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                          Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                          nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                        <p>Work hard, stay positive, and get up early. It's the best part of the day.
                         </p>
-                        <cite>Mr. Adobe</cite>
+                        <cite>George allen, Sr.</cite>
                       </blockquote>
                     </li> {/* slide ends */}
                   </ul>
