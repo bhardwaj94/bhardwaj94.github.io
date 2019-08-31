@@ -237,8 +237,7 @@ ul#nav li.current a { color: #F06000; }
 
 #resume {
    background: #fff;
-   padding-top: 90px;
-   padding-bottom: 72px;
+   padding-top: 40px;
    overflow: hidden;
 }
 
@@ -299,7 +298,7 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
   	margin-bottom: 60px;
   	background: #ccc;
-  	height: 30px;
+  	height: 15px;
   	border-radius: 3px;
 }
 .bars li em {
@@ -320,28 +319,28 @@ ul#nav li.current a { color: #F06000; }
    padding-right: 24px;
   	background: #313131;
    display: inline-block;
-  	height: 30px;
+  	height: 15px;
    line-height: 30px;
    border-radius: 3px 0 0 3px;
 }
 
 .ReactJs {
-  	width: 70%;
+  	width: 85%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
 .NodeJs {
-  	width: 55%;
+  	width: 80%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
 .JavaScript {
-  	width: 65%;
+  	width: 90%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
 .css {
-  	width: 70%;
+  	width: 80%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
@@ -354,6 +353,11 @@ ul#nav li.current a { color: #F06000; }
   	width: 60%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
+}
+.deployment {
+   width: 70%;
+   -moz-animation: jquery 2s ease;
+   -webkit-animation: jquery 2s ease;
 }
 
 @-moz-keyframes photoshop {
@@ -412,8 +416,8 @@ ul#nav li.current a { color: #F06000; }
 
 #portfolio {
    background: #ebeeee;
-   padding-top: 90px;
-   padding-bottom: 60px;
+   padding-top: 30px;
+   padding-bottom: 30px;
 }
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
