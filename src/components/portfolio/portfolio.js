@@ -38,53 +38,11 @@ export default class Portfolio extends Component{
                 </div> {/* item end */}
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href="#modal-03" title>
-                      <img alt src="images/portfolio/judah.jpg" />
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>CMS</h5>
-                          <p>Web Development</p>
-                        </div>
-                      </div>
-                      <div className="link-icon"><i className="icon-plus" /></div>
-                    </a>
-                  </div>
-                </div> {/* item end */}
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-04" title>
-                      <img alt src="images/portfolio/into-the-light.jpg" />
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>Recipe Box</h5>
-                          <p>SPA in React</p>
-                        </div>
-                      </div>
-                      <div className="link-icon"><i className="icon-plus" /></div>
-                    </a>
-                  </div>
-                </div> {/* item end */}
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-05" title>
-                      {/* <img alt src="images/portfolio/farmerboy.jpg" /> */}
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>Farmer Boy</h5>
-                          <p>Branding</p>
-                        </div>
-                      </div>
-                      <div className="link-icon"><i className="icon-plus" /></div>
-                    </a>
-                  </div>
-                </div> {/* item end */}
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
                     <a href="#modal-06" title>
                       <img alt src="images/portfolio/girl.jpg" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>Node_crud</h5>
+                          <h5>Back-Office for liveChat application</h5>
                           <p>Web Development</p>
                         </div>
                       </div>
@@ -98,7 +56,7 @@ export default class Portfolio extends Component{
                       <img alt src="images/portfolio/origami.jpg" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>CRM</h5>
+                          <h5>Ontology Automaton</h5>
                           <p>Web Development</p>
                         </div>
                       </div>
@@ -106,20 +64,6 @@ export default class Portfolio extends Component{
                     </a>
                   </div>
                 </div> {/* item end */}
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-08" title>
-                      {/* <img alt src="images/portfolio/retrocam.jpg" /> */}
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>Retrocam</h5>
-                          <p>Web Development</p>
-                        </div>
-                      </div>
-                      <div className="link-icon"><i className="icon-plus" /></div>
-                    </a>
-                  </div>
-                </div>  {/* item end */}
               </div> {/* portfolio-wrapper end */}
             </div> {/* twelve columns end */}
             {/* Modal Popup
@@ -187,9 +131,9 @@ export default class Portfolio extends Component{
             <div id="modal-06" className="popup-modal mfp-hide">
               <img className="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt />
               <div className="description-box">
-                <h4>Node_crud</h4>
-                <p>A simple app comprising features like user login, signup and <bold>CRUD</bold> operations on an item.</p>
-                <span className="categories"><i className="fa fa-tag" /><b>Jade, ExpressJs, mongooseJs, nodeJs & MongoDb.</b></span>
+                <h4>Back-Office for liveChat Application</h4>
+                <p> A portal for Live chat application which manages user queries, their resolution customer data, customer interaction, access business information.</p>
+                <span className="categories"><i className="fa fa-tag" /><b>NEXT.JS, ReactJs, ExpressJs, MongooseJs, Material-UI, NodeJs, PHP & MySQL.</b></span>
               </div>
               <div className="link-box">
                 <a href="#">Details</a>
@@ -200,8 +144,8 @@ export default class Portfolio extends Component{
               <img className="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt />
               <div className="description-box">
                 <h4>CRM</h4>
-                <p><abbr title="Customer relationship management">CRM</abbr> software designed to help businesses manage many business processes i.e customer data. customer interaction</p>
-                <span className="categories"><i className="fa fa-tag" /><b>ReactJs, ExpressJs, mongooseJs, nodeJs & MongoDb.</b></span>
+                <p> This web portal was designed to overcome manual efforts involved in Ontology generation process.</p>
+                <span className="categories"><i className="fa fa-tag" /><b>NEXT.JS, ReactJs, ExpressJs, MongooseJs, Material-UI, NodeJs & MongoDb.</b></span>
               </div>
               <div className="link-box">
                 <a href="#">Details</a>
