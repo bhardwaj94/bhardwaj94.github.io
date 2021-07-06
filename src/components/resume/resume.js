@@ -29,8 +29,27 @@ export default class Resume extends Component{
             <div className="nine columns main-col">
             <div className="row item">
                 <div className="twelve columns">
+                  <h3>Gartner</h3>
+                  <p className="info">Software Engineer<span>•</span> <em className="date">July 2020 - Present</em></p>
+                  <ul>
+                    <li>Working on <b>ReactJs, Node.js, Elastic-Search, Serverless, AWS lamda, TypeScript, SEO, Lazy-loading</b>.</li>
+                    <li>Have taken use of server side rendering using <b>ReactJs, Webpack</b>.</li>
+                  </ul>
+                </div>
+              </div> 
+            <div className="row item">
+                <div className="twelve columns">
+                  <h3>Xebia India</h3>
+                  <p className="info">Technical Consultant<span>•</span> <em className="date">Jan 2020 - June 2020</em></p>
+                  <ul>
+                    <li>Worked on B2B WebApp using <b>ReactJs, Image Manipulation Libraries, Redux, Nginx, Jest, Engyme</b>.</li>
+                  </ul>
+                </div>
+              </div> 
+            <div className="row item">
+                <div className="twelve columns">
                   <h3>Sopra Steria</h3>
-                  <p className="info">Full stack developer<span>•</span> <em className="date">March 2019 - Present</em></p>
+                  <p className="info">Full stack developer<span>•</span> <em className="date">March 2019 - Dec 2019</em></p>
                   <ul>
                     <li>Web design, development and deployment using modern web technologies.</li>
                     <li>Have leveraged <b>NEXT.JS</b> for SSR and Lazy-loading </li>
@@ -41,7 +60,7 @@ export default class Resume extends Component{
               </div>
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>TCS pvt. ltd.</h3>
+                  <h3>TCS</h3>
                   <p className="info">Full stack developer<span>•</span> <em className="date">Aug 2016 - Feb 2019</em></p>
                   <ul>
                     <li>2+ year of professional experience in <b>ReactJs, Node.js, Redux, Express.js,
@@ -61,8 +80,8 @@ export default class Resume extends Component{
               <h1><span>Skills</span></h1>
             </div>
             <div className="nine columns main-col">
-              <p><b>FRONT-END: </b>ReactJs, Next.Js, Material-UI, Redux, Flux, JavaScript, babel, Flex, HTML, CSS</p>
-              <p><b>BACK-END: </b>NodeJs, Express.Js, Mongoose,</p>
+              <p><b>FRONT-END: </b>ReactJs, Next.Js, Material-UI, Redux, Webpack, JavaScript, babel, Flex</p>
+              <p><b>BACK-END: </b>NodeJs, Express.Js, Mongoose, Elastic Search</p>
               <p><b>DATABASE: </b>MongoDb, OracleDB, MySQL</p>
               <p><b>Others: </b>VMs, Docker, Git  </p>            
               <div className="bars">
