@@ -41,7 +41,6 @@
   letter-spacing: -0.005em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
 }
 
 /* Reset cascade from legacy CSS */
@@ -56,26 +55,30 @@
 }
 
 /* ============================================================
-   BACKGROUND DECORATIONS
+   BACKGROUND DECORATIONS — fixed wrapper clips overflow without
+   creating a scroll container on the document
    ============================================================ */
+.rx-bg {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
 .rx-bg-grid {
-  position: fixed; inset: 0;
+  position: absolute; inset: 0;
   background-image:
     linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
   background-size: 48px 48px;
   mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 30%, transparent 80%);
-  pointer-events: none;
-  z-index: 0;
 }
 .rx-bg-glow {
-  position: fixed;
+  position: absolute;
   width: 600px; height: 600px;
   border-radius: 50%;
   filter: blur(120px);
   opacity: 0.3;
-  pointer-events: none;
-  z-index: 0;
 }
 .rx-bg-glow-a {
   top: -200px; left: -100px;
@@ -110,6 +113,7 @@
 .rx-sidebar {
   position: sticky;
   top: 0;
+  align-self: start;
   height: 100vh;
   overflow-y: auto;
   border-right: 1px solid var(--border);

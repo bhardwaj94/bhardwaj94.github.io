@@ -9,9 +9,11 @@ import "./styles.css";
 export default function ResumePage() {
   return (
     <div className="rx-app">
-      <div className="rx-bg-grid" aria-hidden />
-      <div className="rx-bg-glow rx-bg-glow-a" aria-hidden />
-      <div className="rx-bg-glow rx-bg-glow-b" aria-hidden />
+      <div className="rx-bg" aria-hidden>
+        <div className="rx-bg-grid" />
+        <div className="rx-bg-glow rx-bg-glow-a" />
+        <div className="rx-bg-glow rx-bg-glow-b" />
+      </div>
 
       <div className="rx-layout">
         <Sidebar data={data} />
