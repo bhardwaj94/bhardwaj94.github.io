@@ -46,7 +46,7 @@
 /* Reset cascade from legacy CSS */
 .rx-app * { box-sizing: border-box; }
 .rx-app a { color: inherit; text-decoration: none; }
-.rx-app h1, .rx-app h2, .rx-app h3, .rx-app h4, .rx-app p, .rx-app ul {
+:where(.rx-app) :where(h1, h2, h3, h4, p, ul) {
   margin: 0; padding: 0;
 }
 .rx-app ul { list-style: none; }
