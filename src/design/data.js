@@ -100,9 +100,11 @@ const data = {
   ],
   projects: [
     {
-      name: "To-Do SPA",
-      description: "From work to play, the easiest way to get stuff done every day.",
-      stack: ["React", "SPA"],
+      name: "Quizzr",
+      description:
+        "Free multiplayer trivia game — host rooms via shareable links and play live with friends across categories like Cricket/IPL, Movies, OTT, and Geography. Built-in leaderboards and curated content packs.",
+      stack: ["React", "Real-time", "Multiplayer"],
+      url: "https://www.quizzr.app/",
     },
     {
       name: "E-commerce Platform",

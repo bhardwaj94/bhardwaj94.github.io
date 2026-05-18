@@ -11,22 +11,28 @@ export default function Projects({ entries }) {
       </header>
 
       <div className="rx-project-grid">
-        {entries.map((p, i) => (
-          <article key={i} className="rx-project">
-            <div className="rx-project-head">
-              <h3 className="rx-project-name">{p.name}</h3>
-              <IconArrow className="rx-project-arrow" />
-            </div>
-            <p className="rx-project-desc">{p.description}</p>
-            <div className="rx-tag-row">
-              {p.stack.map((t) => (
-                <span key={t} className="rx-tag rx-tag-soft">
-                  {t}
-                </span>
-              ))}
-            </div>
-          </article>
-        ))}
+        {entries.map((p, i) => {
+          const Tag = p.url ? "a" : "article";
+          const linkProps = p.url
+            ? { href: p.url, target: "_blank", rel: "noreferrer" }
+            : {};
+          return (
+            <Tag key={i} className="rx-project" {...linkProps}>
+              <div className="rx-project-head">
+                <h3 className="rx-project-name">{p.name}</h3>
+                <IconArrow className="rx-project-arrow" />
+              </div>
+              <p className="rx-project-desc">{p.description}</p>
+              <div className="rx-tag-row">
+                {p.stack.map((t) => (
+                  <span key={t} className="rx-tag rx-tag-soft">
+                    {t}
+                  </span>
+                ))}
+              </div>
+            </Tag>
+          );
+        })}
       </div>
     </section>
   );
