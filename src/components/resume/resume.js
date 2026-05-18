@@ -27,50 +27,62 @@ export default class Resume extends Component{
               <h1><span>Work</span></h1>
             </div>
             <div className="nine columns main-col">
-            <div className="row item">
+              <div className="row item">
+                <div className="twelve columns">
+                  <h3>G2</h3>
+                  <p className="info">Sr Software Engineer<span>•</span> <em className="date">Feb 2026 - Present</em></p>
+                  <p>Gurugram, Haryana, India · Hybrid</p>
+                </div>
+              </div>
+              <div className="row item">
                 <div className="twelve columns">
                   <h3>Gartner</h3>
-                  <p className="info">Software Engineer<span>•</span> <em className="date">July 2020 - Present</em></p>
+                  <p className="info">Sr Software Engineer<span>•</span> <em className="date">Apr 2022 - Feb 2026</em></p>
                   <ul>
-                    <li>Working on <b>ReactJs, Node.js, Elastic-Search, Serverless, AWS lamda, TypeScript, SEO, Lazy-loading</b>.</li>
-                    <li>Have taken use of server side rendering using <b>ReactJs, Webpack</b>.</li>
-                  </ul>
-                </div>
-              </div> 
-            <div className="row item">
-                <div className="twelve columns">
-                  <h3>Xebia India</h3>
-                  <p className="info">Technical Consultant<span>•</span> <em className="date">Jan 2020 - June 2020</em></p>
-                  <ul>
-                    <li>Worked on B2B WebApp using <b>ReactJs, Image Manipulation Libraries, Redux, Nginx, Jest, Engyme</b>.</li>
-                  </ul>
-                </div>
-              </div> 
-            <div className="row item">
-                <div className="twelve columns">
-                  <h3>Sopra Steria</h3>
-                  <p className="info">Full stack developer<span>•</span> <em className="date">March 2019 - Dec 2019</em></p>
-                  <ul>
-                    <li>Web design, development and deployment using modern web technologies.</li>
-                    <li>Have leveraged <b>NEXT.JS</b> for SSR and Lazy-loading </li>
-                    <li>App containerization using <b>Docker</b> and deployment on VMs</li>
-                    <li>Involed in preparing <b>POCs</b> and <b>MVPs</b> for various client.</li>
+                    <li>Optimized frontend performance &amp; SEO, achieving a <b>40% reduction in page load time</b> and increasing user engagement by 15%.</li>
+                    <li>Skills: <b>Elastic Stack (ELK), CI/CD, ReactJs, Node.js, TypeScript, AWS Lambda</b>.</li>
                   </ul>
                 </div>
               </div>
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>TCS</h3>
-                  <p className="info">Full stack developer<span>•</span> <em className="date">Aug 2016 - Feb 2019</em></p>
+                  <h3>Gartner</h3>
+                  <p className="info">Software Engineer<span>•</span> <em className="date">Jul 2020 - Apr 2022</em></p>
                   <ul>
-                    <li>2+ year of professional experience in <b>ReactJs, Node.js, Redux, Express.js,
-                       MongoDB, NPM, GIT, Socket.io, JavaScript, ES6, MVC, JSON,Template engines</b>.</li>
-                    <li>Creating <b>RESTful</b> services with Node.js for web Application.</li>
-                    <li>Have taken use of client side rendering using <b>ReactJs</b>.</li>
-                    <li>Involved in daily <b>SCRUM</b> meetings to keep track of the project status.</li>
+                    <li>Implemented robust unit and integration testing strategies, increasing coverage from <b>65% to 95%</b>.</li>
+                    <li>Enhanced application monitoring, error tracking and logging using <b>New Relic, DataDog, Jenkins, Elastic Stack (ELK)</b>.</li>
                   </ul>
                 </div>
-              </div> 
+              </div>
+              <div className="row item">
+                <div className="twelve columns">
+                  <h3>Xebia</h3>
+                  <p className="info">Technical Consultant<span>•</span> <em className="date">Jan 2020 - Jun 2020</em></p>
+                  <ul>
+                    <li>Developed an interactive PCB cost calculator with <b>React.js</b> enabling image operations — zoom, crop, selection and drawing.</li>
+                    <li>Skills: <b>React.js, Nginx, Redux</b>.</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="row item">
+                <div className="twelve columns">
+                  <h3>Sopra Steria</h3>
+                  <p className="info">Senior Software Engineer<span>•</span> <em className="date">Mar 2019 - Dec 2019</em></p>
+                  <ul>
+                    <li>Developed web applications using <b>React, Node.js, and MongoDB</b> delivering features to 100K+ users.</li>
+                    <li>Migrated legacy codebases to modern tech stack using <b>Next.js, Express.js and MongoDB</b>.</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="row item">
+                <div className="twelve columns">
+                  <h3>Tata Consultancy Services</h3>
+                  <p className="info">Asst. System Engineer<span>•</span> <em className="date">Aug 2016 - Mar 2019</em></p>
+                  <ul>
+                    <li>Worked in agile process to meet client delivery expectations, gaining skills in <b>JavaScript, CSS, databases and React.js</b>.</li>
+                  </ul>
+                </div>
+              </div>
             </div> {/* main-col end */}
           </div> {/* End Work */}
           {/* Skills
