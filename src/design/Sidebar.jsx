@@ -6,6 +6,7 @@ import {
   IconGithub,
   IconLinkedin,
   IconDownload,
+  IconArrow,
 } from "./icons";
 
 export default function Sidebar({ data }) {
@@ -20,7 +21,6 @@ export default function Sidebar({ data }) {
         <div className="rx-profile">
           <div className="rx-avatar">
             <span>{initials}</span>
-            <div className="rx-avatar-ring" />
           </div>
           <div className="rx-status">
             <span className="rx-status-dot" /> Available for opportunities
@@ -29,6 +29,11 @@ export default function Sidebar({ data }) {
           <p className="rx-title">{data.title}</p>
           <p className="rx-tagline">{data.tagline}</p>
         </div>
+
+        <button className="rx-cta" onClick={() => window.print()}>
+          <IconDownload className="rx-icon" />
+          <span>Download Resume</span>
+        </button>
 
         <div className="rx-section">
           <h3 className="rx-label">Contact</h3>
@@ -54,10 +59,12 @@ export default function Sidebar({ data }) {
             <a href={data.social.github} target="_blank" rel="noreferrer" className="rx-social-link">
               <IconGithub className="rx-icon" />
               <span>GitHub</span>
+              <IconArrow className="rx-icon rx-social-arrow" />
             </a>
             <a href={data.social.linkedin} target="_blank" rel="noreferrer" className="rx-social-link">
               <IconLinkedin className="rx-icon" />
               <span>LinkedIn</span>
+              <IconArrow className="rx-icon rx-social-arrow" />
             </a>
           </div>
         </div>
@@ -80,10 +87,6 @@ export default function Sidebar({ data }) {
           </div>
         </div>
 
-        <button className="rx-cta" onClick={() => window.print()}>
-          <IconDownload className="rx-icon" />
-          <span>Download Resume</span>
-        </button>
       </div>
     </aside>
   );

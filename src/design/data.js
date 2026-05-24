@@ -4,7 +4,7 @@ const data = {
   tagline: "Full-stack engineer crafting performant web experiences",
   location: "Gurugram, India",
   email: "bhardwaj2cs@outlook.com",
-  phone: "+91 94504 57922",
+  phone: "+91 94504-57922",
   about:
     "Senior engineer with 9+ years building scalable web applications across React, Node.js, and TypeScript. I care deeply about performance, developer experience, and shipping products that scale to millions.",
   social: {
